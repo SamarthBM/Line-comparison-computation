@@ -56,10 +56,6 @@ public class LineComparison {
 			System.out.println("The length of line 1 is smaller than line 2");
 		}
 
-
-
-
-
 	}
 
 }
