@@ -42,15 +42,21 @@ public class LineComparison {
 		System.out.println("The lenght of the line 1 is " + len1);
 		System.out.println("The lenght of the line 2 is " + len2);
 		
-		// Equality check of line 1 and line 2
+		// Finding which length is greater
 		if (len1 == len2)
 		{
 			System.out.println("The length of line 1 and line 2 are equal");
 		}
+		else if (len1 > len2)
+		{
+			System.out.println("The length of line 1 is greater than line 2");
+		}
 		else
 		{
-			System.out.println("The length of line 1 and line 2 are not equal");
+			System.out.println("The length of line 1 is smaller than line 2");
 		}
+
+
 
 
 
